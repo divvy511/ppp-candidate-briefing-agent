@@ -85,14 +85,3 @@ Most recruiter tools search candidate profiles and stop there. The third tool �
 
 3. **Automated mandate intake + longlist generator** — When a client calls PPP with a new role, the consultant today spends 2–3 hours manually building a longlist from memory and prior searches. An intake form → role spec → automatic query against PPP's accumulated candidate database → re-scored mobility check → draft longlist in under 15 minutes would compress that cycle to one-tenth the time and make PPP faster to market than any competitor.
 
-## Submitting Your Results
-
-`output.json` is not gitignored — it will be included automatically when you stage all files. After running the agent on `candidates.csv`, commit it before submitting:
-
-```bash
-git add output.json
-git commit -m "Add output.json — submission deliverable"
-git push
-```
-
-> The brief states output.json is "the most important deliverable — it is what we evaluate directly." Do not submit without it.
